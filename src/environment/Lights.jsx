@@ -13,7 +13,7 @@ const Lights = () => {
     <>
       <directionalLight castShadow position={[0, 5, 2]} intensity={intensity} color={color} />
       <ambientLight intensity={ambientIntensity} />
-      <Sky sunPosition={[50, 50, 50]}  />
+      <Sky sunPosition={[0, 50, 50]}  />
     </>
   );
 };
